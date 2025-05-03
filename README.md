@@ -54,11 +54,10 @@ cd AI-crypto-price-movement
 2.Install dependencies
 pip install -r requirements.txt
 
-👨‍💻 Author
-Built by Erolt Laci – crypto enthusiast, Python developer, and AI explorer 🚀
 
 3. Run live prediction
 python predition.py
 
 
- 
+👨‍💻 Author
+Built by Erolt Laci – crypto enthusiast, Python developer, and AI explorer 🚀 
