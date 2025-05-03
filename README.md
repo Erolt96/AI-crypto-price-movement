@@ -1,24 +1,35 @@
-🧠 AI Crypto Price Movement Classifier
-This project is a machine learning model that predicts whether the price of Bitcoin (BTC) will go up or down the next day using historical price data.
-It uses a Random Forest Classifier trained on live BTC data fetched via yfinance.
+# 💹 AI Crypto Price Movement Classifier
 
-🔍 What it does
-Downloads real BTC-USD market data
+A machine learning model that predicts whether **Bitcoin (BTC)** will go **up 📈 or down 📉** the next day based on historical market data.
 
-Trains a model to classify next-day movement (Up = 1, Down = 0)
+---
 
-Saves the model with joblib
+## 🧠 Overview
 
-Predicts live price movement using today’s data
+This project uses a **Random Forest Classifier** trained on real BTC price data to forecast the next day’s movement.  
+The model is trained and tested using data from `yfinance`, and predictions can be made in real time using today's live data.
 
-🛠 Technologies
-Python
+---
 
-scikit-learn
+## 🚀 Features
 
-yfinance
+✅ Downloads historical BTC-USD price data  
+✅ Cleans and prepares the dataset  
+✅ Trains a classification model  
+✅ Predicts if tomorrow's price will go **UP** or **DOWN**  
+✅ Can fetch **live daily data** and run the prediction instantly
 
-pandas
+---
 
-joblib
+## 🔧 Tech Stack
+
+- **Python 3**
+- **scikit-learn** (ML model)
+- **pandas** (data handling)
+- **yfinance** (fetching crypto data)
+- **joblib** (model persistence)
+
+---
+
+## 📦 Project Structure
 
