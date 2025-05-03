@@ -32,12 +32,12 @@ The model is trained and tested using data from `yfinance`, and predictions can 
 ---
 
 ## 📦 Project Structure
-AI-crypto-price-movement/
-├── crypto_classifier.ipynb # Jupyter notebook used for training
-├── predict_today.py # Script for live prediction
-├── .gitignore # Excludes model file
-├── requirements.txt # Dependencies
-└── README.md # You're reading it!
+AI-crypto-price-movement:
+- crypto_classifier.ipynb # Jupyter notebook used for training
+- predict_today.py # Script for live prediction
+- .gitignore # Excludes model file
+- requirements.txt # Dependencies
+- README.md # You're reading it!
 
 
 🛑 Model file `crypto_model.joblib` is intentionally excluded for security and size — but you can easily retrain it.
@@ -59,3 +59,4 @@ pip install -r requirements.txt
 python predition.py
 
 
+ 
