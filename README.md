@@ -32,4 +32,30 @@ The model is trained and tested using data from `yfinance`, and predictions can 
 ---
 
 ## 📦 Project Structure
+AI-crypto-price-movement/
+├── crypto_classifier.ipynb # Jupyter notebook used for training
+├── predict_today.py # Script for live prediction
+├── .gitignore # Excludes model file
+├── requirements.txt # Dependencies
+└── README.md # You're reading it!
+
+
+🛑 Model file `crypto_model.joblib` is intentionally excluded for security and size — but you can easily retrain it.
+
+---
+
+## 🧪 How to Use
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Erolt96/AI-crypto-price-movement.git
+cd AI-crypto-price-movement
+
+2.Install dependencies
+pip install -r requirements.txt
+
+
+3. Run live prediction
+python predition.py
+
 
